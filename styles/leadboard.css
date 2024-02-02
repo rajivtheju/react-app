@@ -1,0 +1,22 @@
+.leadboard_container {
+  margin-left: 57px;
+  position: fixed;
+  top: 78px;
+  width: 94%;
+}
+
+
+
+@media screen and (max-width: 700px){
+    .leadboard_container{
+      margin-left: px;
+    }
+    }
+  @media screen and (max-width: 400px){
+  .leadboard_container{
+    margin-left: 52px;
+  }
+  lead{
+    width: 100%;
+  }
+}

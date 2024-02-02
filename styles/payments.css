@@ -1,0 +1,168 @@
+/* For desktop: */
+
+.notice{
+  box-shadow: 0 0 2px purple;
+  margin: 3px;
+}
+.P-box{
+  box-shadow: 0 0 2px purple;
+}
+h3.P-box {
+  width: 35%;
+  height: 77px;
+  text-align: center;
+  padding-top: 17px;
+  font-size: 35px;
+}
+.recentupdates{
+  box-shadow: 0 0 2px purple;
+}
+.table,th,td{
+  border:1px solid black;
+  margin: 2px;
+}
+th{
+  text-align: center;
+
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.cf{
+  margin-left: 62px;
+  margin-top: 40px;
+  
+}
+
+.pf{
+  margin-left: 62px;
+  margin-top: 40px;
+  
+}
+input[type='text']{
+  height: 44px;
+  width: 90%;
+  margin:9px;
+  text-align: center;
+  border-radius: 8px;
+
+}
+.file{
+  height: 44px;
+  width: 90%;
+  margin:9px;
+  text-align: center;
+  border-radius: 8px;
+}
+input[type='file']{
+  height: 44px;
+  width: 90%;
+  margin:9px;
+  text-align: center;
+  border-radius: 8px;
+  padding-left: 100px;
+
+}
+input[type='email']{
+  height: 44px;
+  width: 90%;
+  text-align: center;
+  border-radius: 8px;
+}
+select.inp{
+  width:41%;
+  height: 41px;
+  margin: 5px;
+  border-radius: 5px;
+
+}
+
+input.studentlist_submit 
+,input.materials_submit,
+input.previouspapers_submit,
+input.examlist_submit
+{
+  margin: 12px;
+  width: 93px;
+  height: 38px;
+  border-radius: 12%;
+  background-color: rgb(234, 208, 158);
+}
+
+input.coursefee_submit ,
+input.examfee_submit,
+input.pendingfee_submit,
+input.feereciept_submit,
+input.leaderboard_submit{
+  margin: 12px;
+  width: 93px;
+  height: 38px;
+  border-radius: 12%;
+  background-color: rgb(234, 208, 158);
+}
+form {
+  
+  width: 450px;
+  padding: 10px;
+  background-color: plum;
+  border: 0px solid transparent;
+  border-radius: 1.75rem;
+  box-shadow: 4px 4px 8px rgb(208, 224, 245), -4px -4px 8px rgb(255 255 255);
+
+}
+
+
+/*-------------  FEE RECIEPT ---------*/  
+
+
+
+
+@media screen and (max-width: 700px){
+  .paymentcontainer{
+    margin-left: 0px;
+  }
+  .cf{
+    margin-left: 0px;
+  }
+  .ef{
+    margin-left: 0px;
+  }
+  .pf{
+    margin-left: 0px;
+  }
+  .fr{
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 400px){
+
+.cf{
+  margin-left: 0px;
+}
+.ef{
+  margin-left: 0px;
+}
+.pf{
+  margin-left: 0px;
+}
+.fr{
+  margin-left: 0px;
+}
+.sidebar {
+  position: fixed;
+  top: 65px;
+  height: 100%;
+}
+.form1 {
+  width: 82%;
+  margin-left: 45px;
+  margin-top: 92px;
+}
+h3.pm{
+  width: 65%;
+  margin-left: 34px; 
+}
+}

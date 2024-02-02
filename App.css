@@ -1,0 +1,207 @@
+
+body{
+  background-color: #e8eaec;}
+      #file-input {
+        display: none;
+      }
+
+      #file-input-label {
+        padding: 6px;
+    border: 1px solid black;
+    border-radius: 4%;
+    background-color: white;
+    border-radius: 9px;
+    height: 41px;
+    width: 41%;
+
+      }
+*{
+  margin:0;
+  padding:0;
+  text-decoration: none;
+}
+.container{
+  display:flex;
+}
+main{
+  width: 100%;
+  padding: 20px;
+}
+.sidebar{
+  background: #000;
+  color: #fff;
+  height: 100vh;
+  width: 200px;
+  transition: all 0.5s;
+  position: fixed;
+  top: 60px;
+  left:0px;
+}
+.top_section{
+  display: flex;
+  align-items:center;
+  padding:20px 15px;
+}
+.logo{
+  font-size: 20px;
+}
+h1.logoq2 {
+  font-size: 20px;
+  padding-left: 10px;
+}
+.bars{
+  display: flex;
+  font-size: 25px;
+  margin-left: 50px;
+}
+.link{
+  display: flex;
+  color: #fff;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+}
+.link:hover{
+  background:lightskyblue;
+  color: #000;
+  transition: all 0.5s;
+}
+.active{
+  background: lightskyblue;
+  color: #000;
+}
+.icon, .link_text{
+  font-size: 20px;
+}
+/* The side navigation menu */
+
+
+/* Links on mouse-over */
+
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+}
+h3.P-box {
+  width: 67%;
+  height: 78px;
+  text-align: center;
+  padding-top: 17px;
+  font-size: 35px;
+  
+  
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    
+   
+  }
+  
+  div.content {margin-left: 42px;
+  margin-top: 70px;}
+
+  }
+  
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  div.content {margin-left: 37px;
+    margin-top: 27px;}
+  
+  .heading{
+    background-color: antiquewhite;
+  }
+  .inp{
+    width:60%;
+    text-align: center;
+   
+  }
+  .mlogo{
+    width: 70%;
+    text-align: center;
+  }
+  .mut{
+    display: none;
+  }
+  .sidebar {
+    position: fixed;
+    top: 60px;
+    height: 100%;
+}
+}
+
+
+/* ---------------------NAV COMPONENT STYLES-----------------------------------------------------*/
+
+.wrapper-navbar{
+  width: 100%;
+  height: 60px;
+  background: white;
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 15px;
+  top: 50%;
+  box-shadow: 0 0 10px rgba(124, 124, 124, 0.2);
+  z-index: 10;
+  position: fixed;
+  top: 0%;
+}
+
+.wrapper-navbar .navbar-logo{
+  margin-right: 30px;
+}
+
+.wrapper-navbar .test-name{
+  left:5px;
+  padding: 5px 0 0 0;
+  font-size: 20px;
+  font-weight: 500;
+  max-width: 250px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.navbar-logo .bodhasoft-logo{
+  max-width: 200px;
+  height: auto;
+
+}
+
+
+
+
+.content {
+  margin: 20px;
+}
+
+.box {
+  box-shadow: 0 0 3px white;
+  text-align: center;
+  width: 340px;
+  height: 170px;
+  margin: 11px;
+  padding-top: 39px;
+  background-color: #e8eaec;
+    border: 0px solid transparent;
+    border-radius: 1.75rem;
+    box-shadow: 4px 4px 8px rgb(208, 224, 245), -4px -4px 8px rgb(255 255 255);
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 120px;
+  
+  
+}
+.box:hover{
+  background-color: rgb(186, 131, 238);
+  color: white;
+  box-shadow:0 0 8px #04AA6D;
+}
